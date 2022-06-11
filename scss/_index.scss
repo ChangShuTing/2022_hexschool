@@ -1,0 +1,113 @@
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+.font-NotoSansTC {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.font-Comfortaa {
+    font-family: 'Comfortaa', cursive;
+}
+
+.font-WendyOne {
+    font-family: 'Wendy One', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.bg-index {
+    position: relative;
+    background-repeat: no-repeat;
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/bg_home.svg);
+    background-position: right top;
+    background-size: 851px;
+    @media(max-width:768px){
+        background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/bg_home_sm.svg);
+        background-position: 50% 400px;
+        background-size: 334px;
+    }
+}
+
+.bg-ball-lg{
+    background-repeat: no-repeat;
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/ball01.svg);
+    background-position: -15% 0px;
+    background-size: 330px;
+    @media(max-width: 768px){
+        background-position: -28% 15px;
+        background-size:126px;  
+    }
+}
+
+.logo {
+    height: 40px;
+    // @media (max-width: 768px) {
+    //     height: 24px;
+    // }
+}
+
+.m-max {
+    margin-bottom: 100px;
+    @media (max-width: 768px) {
+        margin-bottom: 60px;
+    }
+}
+
+.icon-media {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 8px;
+    @media (max-width: 768px) {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 8px;
+    }
+}
+
+.icon-feature {
+    width: 86px;
+    height: 86px;
+    // border: 86px;
+}
+
+.feedback {
+    padding-bottom: 104px;
+}
+
+.customer-photo {
+    width: 80px;
+    height: 80px;
+    // position: absolute;
+    margin-top: -18px;
+    margin-left: 40px;
+}
+
+.footer-banner {
+    height: 503px;
+    background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/home_footer.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    P {
+        font-size: 32px;
+    }
+    @media (max-width: 768px) {
+        height: 461px;
+        background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/footer_sm.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0 auto;
+        P {
+            font-size: 24px;
+        }
+    }
+}
+
+.footer {
+    background-color: #F5F5F5;
+    text-align: center;
+    padding: 16px 0 16px 0;
+    margin: 0 auto;
+}
